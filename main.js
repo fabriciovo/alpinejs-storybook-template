@@ -1,9 +1,8 @@
-import AlpineData from "./datas/AlpineData";
+import DropdownData from "./datas/dropdown/dropdown.js";
 import "./style.css";
 
 import Alpine from "alpinejs";
 
-
-const teste = new AlpineData("teste");
+Alpine.data("dropdown", DropdownData);
 
 Alpine.start();
