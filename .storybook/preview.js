@@ -1,5 +1,6 @@
 import Alpine from "alpinejs";
 Alpine.start();
+
 /** @type { import('@storybook/html').Preview } */
 const preview = {
   parameters: {
