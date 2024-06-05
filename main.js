@@ -1,7 +1,5 @@
-import  "./datas/dropdown/dropdown.js";
-import "./style.css";
+import "./datas/dropdownLit/dropdownLit.js";
 
 import Alpine from "alpinejs";
-
 
 Alpine.start();
